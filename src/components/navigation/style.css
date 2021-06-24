@@ -1,0 +1,31 @@
+.navigation {
+  display: grid;
+  grid-template-columns: 27px 27px 27px 27px;
+  column-gap: 68px;
+  justify-items: center;
+  align-items: center;
+  height: 49px;
+  padding: 6px;
+}
+
+.navigation-link {
+  text-decoration: none;
+  color: #D4D4D4;
+  width: 27px;
+  height: 36px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.navigation > img {
+  top: 0;
+}
+
+.navigation-link > p {
+  margin: -5px;
+  font-size: 5px;
+  font-weight: 500;
+}

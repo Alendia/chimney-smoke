@@ -1,0 +1,145 @@
+.personal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  background: no-repeat 85% 7% url(../../static/img/background.svg);
+}
+
+.personal-bg {
+  z-index: -1;
+  background-color: #fef2c7;
+  height: 240px;
+  width: 375px;
+  position: absolute;
+  top: 0;
+}
+
+.profile {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+  align-self: flex-start;
+  margin-top: 27px;
+  margin-left: 32px;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.profile-pic {
+  width: 92px;
+  height: 92px;
+  border-radius: 50%;
+  background: no-repeat 40%/10% url(../../static/img/profile.jpg);
+  background-size: 102px 93px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.profile-name {
+  margin-left: 30px;
+  margin-top: 17px;
+  color: #795C31;
+}
+
+.feature-block {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #a38251;
+  margin: 25px 0;
+  height: 160px;
+  width: 311px;
+  border-radius: 20px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25), 0 1px 2px rgba(0, 0, 0, 0.24);
+  font-size: 16px;
+  line-height: normal;
+}
+
+.feature-link {
+  text-decoration: none;
+  color: white;
+}
+
+.feature-link p {
+  margin: 0;
+  padding-top: 14px;
+}
+
+.feature-img {
+  width: 48px;
+  height: 48px;
+}
+
+.divider {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: stretch;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.divider:before,
+.divider:after {
+  content: " ";
+  flex: 1;
+  width: 1px;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.settings-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+  align-items: center;
+  background-color: #fafafa;
+  border-radius: 20px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.settings-link > a {
+  width: 311px;
+  height: 64px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+  color: #a38251;
+}
+
+.settings-link > a > p {
+  margin-left: 16px;
+}
+
+.settings-link > a > img {
+  margin-right: 16px;
+}
+
+.settings-divider {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-self: stretch;
+  align-items: center;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+.settings-divider::before,
+.settings-divider::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background-color: rgba(121, 92, 49, 0.3);
+}
+
+
+.navigation {
+  position: absolute;
+  bottom: 0;
+}
