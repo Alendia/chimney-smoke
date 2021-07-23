@@ -1,11 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
-import Personal from './pages/personal/personal';
+import logo from "./logo.svg";
+import "./App.css";
+import Home from "./pages/home/home";
+import Personal from "./pages/personal/personal";
+import CurrentOrder from "./pages/currentOrder/currentOrder";
+import HistoryOrder from "./pages/historyOrder/historyOrder";
 
 function App() {
   return (
     <div className="App">
-      <Personal />
+      <Home />
+      {/* <Personal /> */}
+      {/* <CurrentOrder /> */}
+      {/* <HistoryOrder /> */}
     </div>
   );
 }

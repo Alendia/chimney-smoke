@@ -1,0 +1,17 @@
+html {
+  min-height: 100%;
+  height: 100%;
+  background-color: #fef2c7;
+}
+
+.current-order {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: nowrap;
+}
+
+.navigation {
+  position: absolute;
+  bottom: 0;
+}
