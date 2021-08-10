@@ -11,15 +11,15 @@
   position: relative;
 }
 
-.order-switch-link > a {
+.order-switch-link-intro {
   text-decoration: none;
-  color: #A28251;
+  color: #a28251;
 }
 
 .order-switch-link::after {
   content: "";
   position: absolute;
-  background-color: #A28251;
+  background-color: #a28251;
   border-radius: 2px;
   height: 3px;
   left: 0;

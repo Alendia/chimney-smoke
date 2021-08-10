@@ -1,5 +1,4 @@
 import React from "react";
-import Navigation from "../../components/navigation/navigation";
 import "./style.css";
 
 import RightArrow from "../../static/img/rightArrow.svg";
@@ -76,7 +75,6 @@ export default function Personal() {
       <Info />
       <Feature />
       <Settings />
-      <Navigation className="navigation" />
     </div>
   );
 }

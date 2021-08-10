@@ -1,12 +1,11 @@
-import React from 'react';
-import Navigation from '../../components/navigation/navigation';
-import "./style.css"
+import React from "react";
+import SearchBar from "../../components/searchBar/searchBar";
+import "./style.css";
 
 export default function Home() {
   return (
     <div className="home">
-      
-      <Navigation />
+      <SearchBar className="home-search-bar" />
     </div>
-  )
+  );
 }
